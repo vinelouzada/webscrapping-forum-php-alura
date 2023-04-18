@@ -1,0 +1,23 @@
+{
+    "name": "vinelouzada/forum-alura-php",
+    "description": "Aplica\u0000\u0000o para obter o n\u0000mero de perguntas sem respostas no f\u0000rum de PHP na Alura",
+    "authors": [
+        {
+            "name": "vinelouzada"
+        }
+    ],
+    "require": {
+        "symfony/dom-crawler": "^6.2",
+        "guzzlehttp/guzzle": "^7.5",
+        "symfony/css-selector": "^6.2",
+        "doctrine/orm": "^2.14",
+        "doctrine/dbal": "^3.6",
+        "doctrine/annotations": "^2.0",
+        "symfony/cache": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "VineLouzada\\PerguntasSemRespostasPHP\\": "src/"
+        }
+    }
+}
